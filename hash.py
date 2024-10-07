@@ -48,42 +48,42 @@ v_nameCollection = 'Hash_Surya'
 v_phoneCollection = 'Hash_1102'
 
 if __name__ == "__main__":
-    # print("a & b: Creating collections...")
-    # print(createCollection(v_nameCollection))
-    # print(createCollection(v_phoneCollection))
+    print("a & b: Creating collections...")
+    print(createCollection(v_nameCollection))
+    print(createCollection(v_phoneCollection))
 
-    # print("c: Getting employee count for name collection...")
-    # emp_count_name = getEmpCount(v_nameCollection)
-    # print(f"Employee count in {v_nameCollection}: {emp_count_name}")
+    print("c: Getting employee count for name collection...")
+    emp_count_name = getEmpCount(v_nameCollection)
+    print(f"Employee count in {v_nameCollection}: {emp_count_name}")
 
-    # print("d: Indexing data for name collection, excluding 'Department'...")
-    # indexData(v_nameCollection, 'Department')
+    print("d: Indexing data for name collection, excluding 'Department'...")
+    indexData(v_nameCollection, 'Department')
 
-    # print("e: Indexing data for phone collection, excluding 'Gender'...")
-    # indexData(v_phoneCollection, 'Gender')
+    print("e: Indexing data for phone collection, excluding 'Gender'...")
+    indexData(v_phoneCollection, 'Gender')
 
-    # print("f: Deleting employee with ID 'E02003' from name collection...")
-    # delEmpById(v_nameCollection, 'E02003')
+    print("f: Deleting employee with ID 'E02003' from name collection...")
+    delEmpById(v_nameCollection, 'E02003')
 
-    # print("g: Getting employee count for name collection after deletion...")
-    # emp_count_name_after = getEmpCount(v_nameCollection)
-    # print(f"Employee count in {v_nameCollection} after deletion: {emp_count_name_after}")
+    print("g: Getting employee count for name collection after deletion...")
+    emp_count_name_after = getEmpCount(v_nameCollection)
+    print(f"Employee count in {v_nameCollection} after deletion: {emp_count_name_after}")
 
-    # print("h: Searching by Department 'IT' in name collection...")
-    # search_it = searchByColumn(v_nameCollection, 'Department', 'IT')
-    # print(f"Search results for Department 'IT': {search_it}")
+    print("h: Searching by Department 'IT' in name collection...")
+    search_it = searchByColumn(v_nameCollection, 'Department', 'IT')
+    print(f"Search results for Department 'IT': {search_it}")
 
-    # print("i: Searching by Gender 'Male' in phone collection...")
-    # search_male = searchByColumn(v_phoneCollection, 'Gender', 'Male')
-    # print(f"Search results for Gender 'Male': {search_male}")
+    print("i: Searching by Gender 'Male' in phone collection...")
+    search_male = searchByColumn(v_phoneCollection, 'Gender', 'Male')
+    print(f"Search results for Gender 'Male': {search_male}")
 
-    # print("j: Searching by Department 'IT' in phone collection...")
-    # search_it_phone = searchByColumn(v_phoneCollection, 'Department', 'IT')
-    # print(f"Search results for Department 'IT' in phone collection: {search_it_phone}")
+    print("j: Searching by Department 'IT' in phone collection...")
+    search_it_phone = searchByColumn(v_phoneCollection, 'Department', 'IT')
+    print(f"Search results for Department 'IT' in phone collection: {search_it_phone}")
 
-    # print("k: Getting department facets for name collection...")
-    # dept_facet_name = getDepFacet(v_nameCollection)
-    # print(f"Department facets for {v_nameCollection}: {dept_facet_name}")
+    print("k: Getting department facets for name collection...")
+    dept_facet_name = getDepFacet(v_nameCollection)
+    print(f"Department facets for {v_nameCollection}: {dept_facet_name}")
 
     print("l: Getting department facets for phone collection...")
     dept_facet_phone = getDepFacet(v_phoneCollection)
